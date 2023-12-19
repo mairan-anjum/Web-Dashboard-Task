@@ -1,0 +1,100 @@
+.logo>img{
+  width: 250px;
+  padding-top: .6rem;
+}
+.sidebar{
+  background-color: #1C4E80;
+}
+#text-hover{
+    color: #ffffff;
+}
+
+#text-hover:hover{
+    color: white;
+}
+#text-hover :active,
+#text-hover.active {
+    color: #ff0000 !important;
+}
+
+.for-space{
+    gap:.5rem;
+}
+/* .nav-item>a{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+} */
+#btn-colors{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  padding: .25rem .60rem;
+  margin-bottom: 0.1rem;
+}
+#btn-colors:hover,
+#btn-colors:focus {
+    background-color: #198754;
+  }
+ /* .nav-item>a:hover,
+.nav-item>a:focus{
+  color: #ffffff;
+  background-color: #1f5488;
+}  */
+
+.justify-content-rigth{
+  justify-content: right !important;
+}
+.btn-toggle {
+    display: inline-flex;
+    align-items: center;
+    padding: .30rem .60rem;
+    font-weight: 600;
+    /* color: rgba(0, 0, 0, .65); */
+    background-color: transparent;
+    border: 0;
+  }
+  .btn-toggle:hover,
+  .btn-toggle:focus {
+    background-color: #198754;
+  }
+  
+  .btn-toggle::before {
+    width: 1.25em;
+    line-height: 0;
+    content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
+    transition: transform .35s ease;
+    transform-origin: .5em 50%;
+}
+  
+  /* .btn-toggle[aria-expanded="true"] {
+    color: rgba(0, 0, 0, .85);
+  } */
+  .btn-toggle[aria-expanded="true"]::before {
+    transform: rotate(90deg);
+  }
+
+  .subs-menu{
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: 1.25rem;
+  }
+
+  @media (min-width:768px){
+    .sidebar{
+      background-color: #0F4C81;
+      height: 100vh;
+      width: 25%;
+      position: fixed;
+      overflow-y: auto; 
+  }
+
+  .sidebar::-webkit-scrollbar {
+    display: none;
+}
+  .scrollable{
+      overflow-y: auto; 
+      margin-left: 25%;
+      width: 75%;
+  }
+  }
