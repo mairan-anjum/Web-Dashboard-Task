@@ -80,6 +80,80 @@
     margin-left: 1.25rem;
   }
 
+  /* Rigth side content */
+  .icons-size i{
+    color: #0F4C81;
+    line-height: 59px;
+    font-size: 48px;
+  }
+  .card-stats{
+    border-radius: 4px;
+  }
+  .card-stats .card-body {
+    padding: 10px 15px 0;
+}
+.numbers-data{
+  padding-top: .4rem;
+}
+.card-stats .card-category {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9a9a9a;
+    margin-bottom: 0;
+}
+.card-stats .card-title {
+  margin: 0;
+  color: #333;
+  font-weight: 300;
+  font-family: Roboto;
+}
+.card-stats .card-footer {
+  /* padding-top: 0; */
+  background-color: transparent;
+  /* line-height: 30px; */
+  border-top: none!important;
+  font-size: 14px;
+  padding: 0 15px 10px;
+  color: #a9a9a9;
+  font-family: Roboto;
+}
+.divider-part{
+  margin-bottom: 0.6rem;
+}
+.scrollable{
+  background-color: #F7F7F8;
+}
+.top-header-back{
+  background-color: white;
+}
+.top-header-text{
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: Roboto;
+  padding-top: 0.3rem;
+}
+.house-color{
+  color:#0F4C81;
+}
+.right-angle-color{
+  font-size: 1.15rem;
+  padding-top: .29rem;
+}
+.accordion-space{
+  padding: 0;
+  background-color: white;
+}
+.accordion-header-bar{
+  padding-top: .6rem;
+  padding-bottom: 0;
+  background-color: white;
+}
+.accordion-header-text{
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: Roboto;
+}
+
   @media (min-width:768px){
     .sidebar{
       background-color: #0F4C81;
@@ -96,6 +170,15 @@
       overflow-y: auto; 
       margin-left: 25%;
       width: 75%;
+      padding-left: 0;
+      padding-right: 0;
+      height: 100vh;
+  }
+  .padding-for-card{
+    padding: .6rem 1.3rem;
+  }
+  .padding-for-accordion{
+    padding: 1.1rem 1.8rem;
   }
   .hide-small-screen{
     display: none;
@@ -105,5 +188,18 @@
     .logo{
       display: none;
     } 
+    .top-header-form{
+      display: none;
+    }
+    .scrollable{
+      padding-left: 0;
+      padding-right: 0;
+  }
+  .padding-for-card{
+    padding: .6rem .75rem;
+  }
+  .padding-for-accordion{
+    padding: 1.1rem 1.28rem;
+  }
   }
   
