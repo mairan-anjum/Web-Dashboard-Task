@@ -1,5 +1,5 @@
 .logo>img{
-  width: 250px;
+  width: 180px;
   padding-top: .6rem;
 }
 .sidebar{
@@ -183,6 +183,16 @@
   .hide-small-screen{
     display: none;
   }
+
+  /* Other pages css */
+  .for-padding-both1{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .for-padding-both2{
+     padding: .8rem 1rem 0 1rem;
+    margin-bottom: 0 !important; 
+  }
   }
   @media (max-width:767px){
     .logo{
@@ -200,6 +210,16 @@
   }
   .padding-for-accordion{
     padding: 1.1rem 1.28rem;
+  }
+
+  /* Other pages css */
+  .for-padding-both1{
+    padding-left: .9rem;
+    padding-right: .9rem;
+  }
+  .for-padding-both2{
+     padding: .8rem .5rem 0 .5rem;
+    margin-bottom: 0 !important; 
   }
   }
   
